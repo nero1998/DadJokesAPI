@@ -52,3 +52,28 @@ li {
   font-size: 20px;
   margin-bottom: 8px;
 }
+
+/* media queris  */
+@media (max-width: 1500px) {
+  .box {
+    width: 60%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .box {
+    width: 70%;
+  }
+}
+
+@media (max-width: 650px) {
+  .box {
+    width: 85%;
+  }
+  h1 {
+    font-size: 22px;
+  }
+  li {
+    font-size: 17px;
+  }
+}
