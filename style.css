@@ -13,6 +13,9 @@ body {
     rgba(63, 94, 251, 1) 0%,
     rgba(252, 70, 107, 1) 100%
   );
+  background-image: url("https://images.unsplash.com/photo-1617791160505-6f00504e3519?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1528&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,7 +25,7 @@ body {
   width: 40%;
   height: 80%;
   overflow-x: auto;
-  backdrop-filter: blur(15px);
+  backdrop-filter: blur(25px);
   background-color: rgba(255, 255, 255, 0.315);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
